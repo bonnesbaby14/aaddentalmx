@@ -9,7 +9,7 @@ nav.navbar {
 }
 
 .title {
-  font-size: 2.1rem;
+  font-size: 2rem;
   margin: 10px;
   padding-left: 70px;
   font-family: "Roboto Mono", monospace;
@@ -33,7 +33,6 @@ nav.navbar ul a {
   font-size: 1.2rem;
 }
 
-
 nav.navbar ul a li {
   list-style: none;
   margin: 10px;
@@ -52,6 +51,7 @@ div.nav2 ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 div.nav2 ul a {
   text-decoration: none;
@@ -67,3 +67,42 @@ div.nav2 ul a li {
 }
 
 /* fin de la nav dos */
+
+/* header */
+.header {
+
+  position: relative;
+  height: 500px;
+}
+
+/* fin del header */
+
+
+/* seccion uno */
+
+.seccionuno{
+  display: flex;
+  background-color: #f7f8f9;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+.seccionuno .title{
+    padding: 20px;
+    color: #1c1c1b;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.seccionuno .text{
+  font-size: 20px;
+  color: #474747;
+  text-align: center;
+  line-height: 1.67;
+  padding: 0px 100px 40px 100px;
+}
+
+
+/* fin de la seccion uno */
