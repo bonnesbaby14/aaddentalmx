@@ -112,7 +112,9 @@ div.nav2 ul a li {
   flex-flow: wrap;
   margin-left: 50px;
   margin-right: 50px;
+margin-bottom: 50px;
 }
+
 
 .secciondos .card {
   padding: 10px;
@@ -144,11 +146,88 @@ div.nav2 ul a li {
   margin-bottom: 20px;
 }
 .secciondos .card .link {
-
   font-size: 13px;
-  color: #5F6062;
+  color: #5f6062;
   text-decoration: none;
   border-bottom: 1px #5f6062 solid;
   margin: auto;
 }
 /* fin de la seccion dos */
+
+/* seccion tres */
+
+.secciontres {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-flow: wrap;
+  align-items: center;
+  background-color: #F7F8F9;
+  margin-bottom: 60px;
+}
+
+.secciontres .text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.secciontres .text .title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  color: #1c1c1b;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.secciontres .text .text {
+  width: 80%;
+  font-size: 15px;
+  line-height: 1.79;
+  color: #474747;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.secciontres .text .link{
+  font-size: 13px;
+    color: #5F6062;
+    text-decoration: none;
+    border-bottom: 1px #5f6062 solid;
+}
+
+.secciontres .image {
+  height: 500px;
+  width: 55%;
+}
+
+/* fin de la seccion tres */
+
+
+
+/* footer */
+
+footer ul{
+  list-style-type: none;
+    width: 100%;
+    padding: 0;
+}
+
+footer{
+  text-align: center;
+ 
+  font-size: 13px;
+    color: #474747;
+    margin: 24px 13px 29px 13px;
+}
+footer a{
+
+  text-decoration: none;
+   color: #474747;
+}
+footer li{
+  margin: 12px 13px 12px 13px;
+}
+
+/* fin del footer */
