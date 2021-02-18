@@ -70,17 +70,15 @@ div.nav2 ul a li {
 
 /* header */
 .header {
-
   position: relative;
   height: 500px;
 }
 
 /* fin del header */
 
-
 /* seccion uno */
 
-.seccionuno{
+.seccionuno {
   display: flex;
   background-color: #f7f8f9;
   flex-direction: column;
@@ -89,14 +87,14 @@ div.nav2 ul a li {
   text-align: center;
 }
 
-.seccionuno .title{
-    padding: 20px;
-    color: #1c1c1b;
-    font-size: 30px;
-    text-transform: uppercase;
+.seccionuno .title {
+  padding: 20px;
+  color: #1c1c1b;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
-.seccionuno .text{
+.seccionuno .text {
   font-size: 20px;
   color: #474747;
   text-align: center;
@@ -104,33 +102,53 @@ div.nav2 ul a li {
   padding: 0px 100px 40px 100px;
 }
 
-
 /* fin de la seccion uno */
 
-
-
 /* seccion dos */
-.secciondos{
-
+.secciondos {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
- align-content: center;
- margin-left: 50px;
- margin-right: 50px;
-
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-.secciondos .card{
-  margin: 20px;
-  flex:20%;
-  max-width: 20%;
+.secciondos .card {
+  padding: 10px;
+  width: 20%;
+
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
-.secciondos .card .image{
+.secciondos .card .image {
   width: 100%;
-  height: auto;
-
+  height: 250px;
+  margin: auto;
+  filter: grayscale(90%);
 }
+.secciondos .card .title {
+  padding: 20px 0 10px 0;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #737578;
+  text-transform: uppercase;
+}
+.secciondos .card .text {
+  font-size: 14px;
+  line-height: 1.79;
+  color: #979899;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.secciondos .card .link {
 
-
+  font-size: 13px;
+  color: #5F6062;
+  text-decoration: none;
+  border-bottom: 1px #5f6062 solid;
+  margin: auto;
+}
 /* fin de la seccion dos */
