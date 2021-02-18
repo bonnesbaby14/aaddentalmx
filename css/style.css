@@ -106,3 +106,31 @@ div.nav2 ul a li {
 
 
 /* fin de la seccion uno */
+
+
+
+/* seccion dos */
+.secciondos{
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+ align-content: center;
+ margin-left: 50px;
+ margin-right: 50px;
+
+}
+
+.secciondos .card{
+  margin: 20px;
+  flex:20%;
+  max-width: 20%;
+}
+.secciondos .card .image{
+  width: 100%;
+  height: auto;
+
+}
+
+
+/* fin de la seccion dos */
